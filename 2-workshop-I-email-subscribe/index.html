@@ -4,6 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="gap-8 columns-2 relative isolate overflow-hidden bg-gray-900 flex lex-row flex justify-center p-10">
+      <div>
+        <img class="" src="images/image.jpg">
+      </div>
+      <div class="flex flex-col justify-center ">
+        <h2 class="text-3xl font-bold tracking-tight sm:text-4xl text-white">Get diet and fitness tips in your inbox</h2>
+        <p class="mt-4 text-lg leading-8 text-white">Eat better and excersice better. Sign up for the Diet&Fitness newsletter</p>
+        <div class="mt-6 flex max-w-md gap-x-4">
+          <label for="email-address" class="sr-only">Email address</label>
+          <input id="email-address" name="email" type="email" autocomplete="email" required class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" placeholder="Enter your email">
+          <button type="submit" class="flex-none rounded-md bg-lime-400 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
